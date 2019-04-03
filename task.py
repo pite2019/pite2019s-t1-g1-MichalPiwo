@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import Matrix as matrix
+import matrix as matrix
 
 
 if __name__ == "__main__":
@@ -48,3 +48,10 @@ if __name__ == "__main__":
 	print("matrix1:")
 	for i in matrix_1:
 		print(i)
+<<<<<<< HEAD
+=======
+
+	print("matrix1:")
+	for i in matrix_1:
+		print(i)
+>>>>>>> origin
