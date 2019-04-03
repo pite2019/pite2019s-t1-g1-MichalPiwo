@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import Matrix as matrix
+import matrix as matrix
 
 
 if __name__ == "__main__":
