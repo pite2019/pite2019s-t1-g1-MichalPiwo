@@ -48,7 +48,3 @@ if __name__ == "__main__":
 	print("matrix1:")
 	for i in matrix_1:
 		print(i)
-
-	print("matrix1:")
-	for i in matrix_1:
-		print(i)
