@@ -44,3 +44,11 @@ if __name__ == "__main__":
 
 	matrix_3 = matrix_1 @ matrix_2
 	print("matrix1 multiplid by matrix2 =", matrix_3)
+
+	print("matrix1:")
+	for i in matrix_1:
+		print(i)
+
+	print("matrix1:")
+	for i in matrix_1:
+		print(i)

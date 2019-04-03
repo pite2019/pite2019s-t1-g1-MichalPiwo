@@ -15,6 +15,7 @@ class Matrix(object):
 			raise ValueError("Wrong dimensions")
 
 	def __init__(self, *values_input):
+		self.counter = 0
 		self.dimension = Matrix.check_arguments(len(values_input))
 		self.values = []
 		for i in range(self.dimension):
@@ -103,3 +104,14 @@ class Matrix(object):
 
 	def __str__(self):
 		return str(self.values)
+
+	def __iter__(self):
+		return self
+
+	def __next__(self):
+		if self.counter >= self.dimension:
+			self.counter = 0
+			raise StopIteration()
+		val = [i for i in self.values[self.counter]]
+		self.counter += 1
+		return val
